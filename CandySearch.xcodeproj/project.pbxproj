@@ -14,7 +14,8 @@
 		3FED484D15A5A5F000AB4BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED484C15A5A5F000AB4BFC /* main.m */; };
 		3FED485115A5A5F000AB4BFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED485015A5A5F000AB4BFC /* AppDelegate.m */; };
 		3FED485415A5A5F000AB4BFC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED485215A5A5F000AB4BFC /* MainStoryboard.storyboard */; };
-		3FED485715A5A5F000AB4BFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED485615A5A5F000AB4BFC /* ViewController.m */; };
+		3FED486215A5ADE000AB4BFC /* Candy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED486115A5ADE000AB4BFC /* Candy.m */; };
+		3FED486515A5AEF800AB4BFC /* CandyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED486415A5AEF800AB4BFC /* CandyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		3FED484015A5A5F000AB4BFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FED484215A5A5F000AB4BFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FED484415A5A5F000AB4BFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3FED484815A5A5F000AB4BFC /* CandySearch-Info.plist */ = {isa = PBXFileReference; path = "CandySearch-Info.plist"; sourceTree = "<group>"; };
+		3FED484815A5A5F000AB4BFC /* CandySearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CandySearch-Info.plist"; sourceTree = "<group>"; };
 		3FED484A15A5A5F000AB4BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FED484C15A5A5F000AB4BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FED484E15A5A5F000AB4BFC /* CandySearch-Prefix.pch */ = {isa = PBXFileReference; path = "CandySearch-Prefix.pch"; sourceTree = "<group>"; };
-		3FED484F15A5A5F000AB4BFC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FED484E15A5A5F000AB4BFC /* CandySearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CandySearch-Prefix.pch"; sourceTree = "<group>"; };
+		3FED484F15A5A5F000AB4BFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FED485015A5A5F000AB4BFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FED485315A5A5F000AB4BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3FED485515A5A5F000AB4BFC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		3FED485615A5A5F000AB4BFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FED486015A5ADE000AB4BFC /* Candy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candy.h; sourceTree = "<group>"; };
+		3FED486115A5ADE000AB4BFC /* Candy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candy.m; sourceTree = "<group>"; };
+		3FED486315A5AEF800AB4BFC /* CandyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandyTableViewController.h; sourceTree = "<group>"; };
+		3FED486415A5AEF800AB4BFC /* CandyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +83,10 @@
 				3FED484F15A5A5F000AB4BFC /* AppDelegate.h */,
 				3FED485015A5A5F000AB4BFC /* AppDelegate.m */,
 				3FED485215A5A5F000AB4BFC /* MainStoryboard.storyboard */,
-				3FED485515A5A5F000AB4BFC /* ViewController.h */,
-				3FED485615A5A5F000AB4BFC /* ViewController.m */,
+				3FED486015A5ADE000AB4BFC /* Candy.h */,
+				3FED486115A5ADE000AB4BFC /* Candy.m */,
+				3FED486315A5AEF800AB4BFC /* CandyTableViewController.h */,
+				3FED486415A5AEF800AB4BFC /* CandyTableViewController.m */,
 				3FED484715A5A5F000AB4BFC /* Supporting Files */,
 			);
 			path = CandySearch;
@@ -163,7 +168,8 @@
 			files = (
 				3FED484D15A5A5F000AB4BFC /* main.m in Sources */,
 				3FED485115A5A5F000AB4BFC /* AppDelegate.m in Sources */,
-				3FED485715A5A5F000AB4BFC /* ViewController.m in Sources */,
+				3FED486215A5ADE000AB4BFC /* Candy.m in Sources */,
+				3FED486515A5AEF800AB4BFC /* CandyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				3FED485C15A5A5F000AB4BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
